@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wedding Invitation Risda & Jati</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url('/assets/hookup/css/open-iconic-bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url('/assets/hookup/css/animate.css')}}">
+
+    <link rel="stylesheet" href="{{url('/assets/hookup/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{url('/assets/hookup/css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{url('/assets/hookup/css/magnific-popup.css')}}">
+
+    <link rel="stylesheet" href="{{url('/assets/hookup/css/aos.css')}}">
+
+    <link rel="stylesheet" href="{{url('/assets/hookup/css/ionicons.min.css')}}">
+
+    <link rel="stylesheet" href="{{url('/assets/hookup/css/flaticon.css')}}">
+    <link rel="stylesheet" href="{{url('/assets/hookup/css/icomoon.css')}}">
+    <link rel="stylesheet" href="{{url('/assets/hookup/css/style.css')}}">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+  </head>
+  <button id="play" style=" position: fixed;
+    z-index: 99;
+    right: 10px;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    opacity: 0.7;">
+	<img src="{{url('assets/hookup/images/play.svg')}}" style="width:100%;"  class="img-responsive">
+</button>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    
+	  <section id="home" class="video-hero js-fullheight" style="height: 700px; background-image: url(/assets/hookup/images/n.jpeg); background-size:cover; background-position: top center;" data-stellar-background-ratio="0.5">
+			<!-- <a class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Mjjw19B7rMk',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default',optimizeDisplay:true}"></a> -->
+			<div class="container">
+				<div class="row js-fullheight justify-content-center d-flex align-items-center">
+					<div class="col-md-12">
+						<div class="text text-center">
+							<div class="icon">
+								<span class="flaticon-rose-outline-variant-with-vines-and-leaves"></span>
+							</div>
+							<span class="subheading">The Wedding of</span>
+							<h1>Mita &amp; Rizal</h1>
+							<div id="timer" class="d-flex">
+							  <div class="time" id="days"></div>
+							  <div class="time pl-3" id="hours"></div>
+							  <div class="time pl-3" id="minutes"></div>
+							  <div class="time pl-3" id="seconds"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade in" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+	  <button type="button" class="close" data-dismiss="modal"></button>
+          <h5 class="modal-title " style="margin-right: 33px;" >Wedding invitation
+		</h5>
+
+      </div>
+	  <div class="modal-body">
+			<div class="card text-center">
+			<img class="img-fluid" src="{{url('assets/hookup/images/r.jpeg')}}"  style="border-radius: 10px;" alt="Card image cap">
+			<div class="card-body">
+			<p class="card-text">Kepada Yth. <br>  <span style="text-transform:capitalize"> {{$nama}} </span></p>
+			</div>
+			</div>
+        </div>
+      <div class="modal-footer">
+        <button type="button" style="margin-right: 65px;" class="btn btn-primary" id="playMusic" data-dismiss="modal">Buka Undangan</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+
+
+		<section class="ftco-section ftco-about bg-section ftco-no-pt ftco-no-pb" id="groom-bride-section" >
+        <div class="overlay-top" style="background-image: url(/assets/hookup/images/top-bg.jpg);"></div>
+    	<div class="overlay-bottom" style="background-image: url(/assets/hookup/images/bottom.jpg);"></div>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="wrap">
+			    		<div class="row d-flex">
+			    			<div class="col-md-12 py-md-5 text">
+			    				<div class="py-md-4">
+				    				<div class="row justify-content-start pb-3">
+						          <div class="col-md-12 ftco-animate p-4 p-lg-5 text-center">
+						          	<span class="subheading mb-4 mt-4">Join us to celebrate <br>the wedding day of</span>
+						            <h2 class="mb-4"  style="font-size:30px; ">Mita Novita Ria <br> <span>&amp;</span> <br> Eka Hadi Seprizal</h2>
+						            <!-- <span class="icon flaticon-rose-variant-outline-with-vines"></span> -->
+						            <span class="subheading">Which is celebration on</span>
+						           	<p class="time mb-4" style="font-size:30px;"><span>Okt | 08 | 2024</span></p>
+						           	<span class="subheading mb-4" style="font-size:10px;">RT02 RW01 <br> Ds. Wana Kec Melinting <br> Kab. Lampung Timur</span>
+
+						          </div>
+						        </div>
+					        </div>
+				        </div>
+			        </div>
+			      </div>
+		      </div>
+		    </div>
+    	</div>
+    	</section>
+
+    <section class="ftco-section bg-section">
+    	<div class="overlay-top" style="background-image: url(/assets/hookup/images/top-bg.jpg);"></div>
+    	<div class="overlay-bottom" style="background-image: url(/assets/hookup/images/bottom.jpg);"></div>
+    	<div class="container">
+    		<div class="row justify-content-center pb-3">
+          <div class="col-md-12 text-center heading-section ftco-animate">
+            <h2 class="mb-3" style="font-size:30px;">بسم الله الرحمن الرحيم</h2>
+            <p style="font-size:13px;"> <i>Assalamualaikum Warahmatullahi Wabarakatuh </i> <br>
+             Dengan memohon rahmat dan ridho Allah SWT, Kami akan menyelenggarakan resepsi pernikahan Putra Putri kami</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+        	<div class="col-md-10">
+        		<div class="row">
+		        	<div class="col-md-6 col-sm-6 text-center ">
+		        		<div class="bride-groom ftco-animate">
+		        			<div class="img" style="background-image: url(/assets/hookup/images/risda.jpeg);"></div>
+		        			<div class="text mt-4 px-4">
+		        				<h2 style="font-size:20px;">MITA NOVITA RIA </h2>
+								<p style="font-size:13px;">Putri dari Ibu Rosita & Bapak Hamidi </p>
+								<p style="font-size:13px;"><a href="https://www.instagram.com/risdadeb/" target="blank"><span class="icon-instagram"></span> @risdadeb</a></p>
+								<i class="fab fa-instagram" aria-hidden="true"></i>
+		        			</div>
+		        		</div>
+		        	</div>
+		        	<div class="col-md-6 col-sm-6 text-center ">
+		        		<div class="bride-groom ftco-animate">
+		        			<div class="img" style="background-image: url(/assets/hookup/images/jati.jpg);"></div>
+		        			<div class="text mt-4 px-4">
+							<h2 style="font-size:20px;">EKA HADI SEPRIZAL </h2>
+								<p style="font-size:13px;">Putra dari iBU Hasiah & Bapak Hasanudin</p>
+								<p style="font-size:13px;"><a href="https://www.instagram.com/ferdinandjp/" target="blank"><span class="icon-instagram"></span> @ferdinandjp</a></p>
+		        			</div>
+		        		</div>
+		        	</div>
+		        </div>
+		      </div>
+        </div>
+    	</div>
+    </section>
+
+	<section class="ftco-section bg-section">
+    	<div class="overlay-top" style="background-image: url(/assets/hookup/images/top-bg.jpg);"></div>
+    	<div class="overlay-bottom" style="background-image: url(/assets/hookup/images/bottom.jpg);"></div>
+    	<div class="container">
+        <div class="row justify-content-center">
+		<div class="col-md-12">
+    <div class="card">
+        <div class="card-body text-center">
+            <h2 class="card-title">Amplop Digital</h2>
+            <hr>
+            <img src="/themes/_assets/images/logo/bank/BCA syariah.svg" alt="Bank Logo" style="width:150px;" class="my-3">
+            <p class="card-text">0612839123 a.n. Farel Addison</p>
+            <input type="text" id="accountNumber" value="0612839123" style="position: absolute; left: -9999px;">
+            <button class="btn btn-primary" onclick="copyText()">Copy Rekening</button>
+        </div>
+    </div>
+</div>
+		      </div>
+        </div>
+    	</div>
+    </section>
+   	<section class="ftco-section bg-section" id="lovestory-section">
+	   <div class="overlay-top" style="background-image: url(/assets/hookup/images/top-bg.jpg);"></div>
+    	<div class="overlay-bottom" style="background-image: url(/assets/hookup/images/bottom.jpg);"></div>
+   		<div class="container">
+   			<div class="row justify-content-center pb-3">
+          <div class="col-md-12 text-center heading-section ftco-animate">
+            <h2 class="mb-3" style="font-size:30px;">Love Story</h2>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-12">
+        		<ul class="timeline animate-box">
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image:url(/assets/hookup/images/firstmeet.jpeg);"></div>
+								<div class="timeline-panel ftco-animate text-md-right">
+									<div class="overlay"></div>
+									<div class="timeline-heading">
+										<span class="date">05 Januari, 2019</span>
+										<h3 style="font-size:13px;" class="timeline-title"></h3>
+									</div>
+									<div class="timeline-body">
+									<p style="font-size:13px;">Kami membuat ikatan</p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge" style="background-image:url(/assets/hookup/images/tunangan.jpeg);"></div>
+								<div class="timeline-panel ftco-animate">
+									<div class="overlay overlay-2"></div>
+									<div class="timeline-heading">
+									<span class="date">29 Desember, 2019</span>
+										<h3 style="font-size:13px;" class="timeline-title"></h3>
+									</div>
+									<div class="timeline-body">
+									<p style="font-size:13px;">Kami membuat janji</p>
+									</div>
+								</div>
+							</li>
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image:url(/assets/hookup/images/9.jpg);"></div>
+								<div class="timeline-panel ftco-animate text-md-right">
+									<div class="overlay"></div>
+									<div class="timeline-heading">
+										<span class="date">10 Januari, 2021</span>
+										<h3 style="font-size:13px;" class="timeline-title"></h3>
+									</div>
+									<div class="timeline-body">
+									<p style="font-size:13px;">Kami berjanji sehidup semati</p>
+									</div>
+								</div>
+							</li>
+			    	</ul>
+        	</div>
+        </div>
+   		</div>
+   	</section>
+
+
+    <section class="ftco-section bg-section" id="when-where-section">
+	<div class="overlay-top" style="background-image: url(/assets/hookup/images/top-bg.jpg);"></div>
+    <div class="overlay-bottom" style="background-image: url(/assets/hookup/images/bottom.jpg);"></div>
+    	<div class="container">
+    		<div class="row justify-content-center pb-2">
+          <div class="col-md-12 text-center heading-section ftco-animate">
+            <h2 class="mb-3" style="font-size:30px;">Akad &amp; Resepsi</h2>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-6 col-sm-6 ftco-animate">
+        		<div class="place img">
+        			<div class="text text-center">
+	        			<span class="icon flaticon-reception-bell"></span>
+	        			<h3 style="font-size:30px;">Akad</h3>
+	        			<p style="font-size:13px;"><span>07 Oktober 2024</span><br><span>20:00-Selesai</span></p>
+	        			<p style="font-size:13px;"><span>Rt 02 Rw 01 <br> Ds. Wana Kec. Melinting <br> Kab. Lampung Timur</span></p>
+	        			<p><a href="https://goo.gl/maps/asTA99ch9YJny7mW9" target="blank"  class="btn-custom">See Map</a></p>
+	        		</div>
+        		</div>
+        	</div>
+        	<div class="col-md-6 col-sm-6 ftco-animate">
+        		<div class="place img">
+        			<div class="text text-center">
+	        			<span class="icon flaticon-cake"></span>
+	        			<h3 style="font-size:30px;">Resepsi</h3>
+	        			<p style="font-size:13px;"><span>08 Oktober 2024</span><br><span>09:00-Selesai</span></p>
+	        			<p style="font-size:13px;"><span>Rt 02 Rw 01 <br> Ds. Wana Kec. Melinting <br> Kab. Lampung Timur</span></p>
+	        			<p><a href="https://goo.gl/maps/asTA99ch9YJny7mW9" target="blank"  class="btn-custom">See Map</a></p>
+	        		</div>
+        		</div>
+        	</div>
+        </div>
+    	</div>
+	</section>
+
+	<style>
+		/* body {
+    background-image: url(/assets/hookup/images/rustic.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}    */
+		.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 15px;
+
+    padding-right: 15px;
+}
+	</style>
+
+    <section class="ftco-section bg-section" id="gallery-section">
+		<div class="overlay-top" style="background-image: url(/assets/hookup/images/top-bg.jpg);"></div>
+    	<div class="overlay-bottom" style="background-image: url(/assets/hookup/images/bottom.jpg);"></div>
+			<div class="container-fluid px-md-4">
+				<div class="row justify-content-center pb-5">
+				<div class="col-md-12 text-center heading-section ftco-animate">
+					<h2 class="mb-3" style="font-size:30px;">Gallery & Videos</h2>
+				</div>
+			</div>
+        <div class="row">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+				</ol>
+				<div class="carousel-inner pl-15 pr-15">
+					<div class="carousel-item active">
+					<img class="d-block w-100" src="{{url('assets/hookup/images/7.jpg')}}" alt="First slide">
+					</div>
+					<div class="carousel-item">
+					<img class="d-block w-100" src="{{url('assets/hookup/images/8.jpg')}}" alt="Second slide">
+					</div>
+					<div class="carousel-item">
+					<img class="d-block w-100" src="{{url('assets/hookup/images/10.jpg')}}" alt="Third slide">
+					</div>
+					<div class="carousel-item">
+					<img class="d-block w-100" src="{{url('assets/hookup/images/9.jpg')}}" alt="Third slide">
+					</div>
+					<div class="carousel-item">
+					<img class="d-block w-100" src="{{url('assets/hookup/images/c.jpeg')}}" alt="Third slide">
+					</div>
+					<div class="carousel-item">
+					<img class="d-block w-100" src="{{url('assets/hookup/images/t.jpeg')}}" alt="Third slide">
+					</div>
+					<div class="carousel-item">
+					<img class="d-block w-100" src="{{url('assets/hookup/images/i.jpeg')}}" alt="Third slide">
+					</div>
+					<div class="carousel-item">
+					<img class="d-block w-100" src="{{url('assets/hookup/images/p.jpeg')}}" alt="Third slide">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+    	</div>
+		<br>
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src=""></iframe>
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Hvl4G2CMF2g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+    </section>
+
+	<section class="ftco-section bg-section">
+    	<div class="overlay-top" style="background-image: url(/assets/hookup/images/top-bg.jpg);"></div>
+    	<div class="overlay-bottom" style="background-image: url(/assets/hookup/images/bottom.jpg);"></div>
+    	<div class="container">
+    		<div class="row justify-content-center pb-3">
+          		<div class="col-md-12 text-center heading-section ftco-animate">
+           			<h2 class="mb-3" style="font-size:30px;">Mimpi Berdua</h2>
+            		<p style="font-size:13px;"> Kami begitu antusias menyambut hari bahagia pernikahan kami bersama para keluarga dan sahabat. Jadilah saksi untuk awal perjalanan kami menuju jenjang hidup penuh tantangan, suka cita dan mimpi berdua.
+					<br> <br>
+					Besar harapan kami Bapak/Ibu/Saudara/i bersedia hadir untuk memberikan doa restu untuk ikatan pernikahan kami <br> #MARIMENUABERSAMA</p>
+          		</div>
+        	</div>
+        	<div class="row justify-content-center">
+				<div class="card" style="width: 18rem;">
+				<img class="card-img-top" src="/assets/hookup/images/v.jpeg" alt="Card image cap">
+			</div>
+    		</div>
+    </section>
+
+	<section class="ftco-section bg-section">
+    	<div class="overlay-top" style="background-image: url(/assets/hookup/images/top-bg.jpg);"></div>
+    	<div class="overlay-bottom" style="background-image: url(/assets/hookup/images/bottom.jpg);"></div>
+    	<div class="container">
+    		<div class="row justify-content-center pb-3">
+          		<div class="col-md-12 text-center heading-section ftco-animate">
+           			<h2 class="mb-3" style="font-size:30px;">Lokasi</h2>
+          		</div>
+        	</div>
+
+        	<div class="map">
+		
+			<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d491.3150656160027!2d105.7429106994692!3d-5.355833919622333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e1!3m2!1sid!2sid!4v1723973771219!5m2!1sid!2sid"
+			 width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+    		</div>
+			<div class="card-body text-center">
+  <a href="https://maps.app.goo.gl/UdF1RD6c7pUykJft5" target="blank" class="btn btn-primary">Lihat Map</a>
+  </div>
+  <div class="row justify-content-center pb-3">
+          		<div class="col-md-12 text-center heading-section ftco-animate">
+           			<h2 class="mb-3" style="font-size:30px;">Jangan lupa menggunakan masker dan <br> patuhi protokol kesehatan</h2>
+          		</div>
+        	</div>
+    </section>
+
+
+
+  	<footer class="ftco-footer ftco-section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script>  Aranwedding</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+	<!-- modal -->
+	<div class="container">
+
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal" hidden style="display:none;">Open Modal</button>
+
+
+
+</div>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="{{url('assets/hookup/js/jquery.min.js')}}"></script>
+  <script src="{{url('assets/hookup/js/jquery-migrate-3.0.1.min.js')}}"></script>
+  <script src="{{url('assets/hookup/js/popper.min.js')}}"></script>
+  <script src="{{url('assets/hookup/js/bootstrap.min.js')}}"></script>
+  <script src="{{url('assets/hookup/js/jquery.easing.1.3.js')}}"></script>
+  <script src="{{url('assets/hookup/js/jquery.waypoints.min.js')}}"></script>
+  <script src="{{url('assets/hookup/js/jquery.stellar.min.js')}}"></script>
+  <script src="{{url('assets/hookup/js/owl.carousel.min.js')}}"></script>
+  <script src="{{url('assets/hookup/js/jquery.magnific-popup.min.js')}}"></script>
+  <script src="{{url('assets/hookup/js/aos.js')}}"></script>
+  <script src="{{url('assets/hookup/js/jquery.animateNumber.min.js')}}"></script>
+  <script src="{{url('assets/hookup/js/jquery.mb.YTPlayer.min.js')}}"></script>
+  <script src="{{url('assets/hookup/js/scrollax.min.js')}}"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="{{url('assets/hookup/js/google-map.js')}}"></script>
+
+  <script src="{{url('assets/hookup/js/main.js')}}"></script>
+
+  <script>
+   // Set the date we're counting down to
+   var countDownDate = new Date("2024-10-09T15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+	// Get today's date and time
+	var now = new Date().getTime();
+
+	// Find the distance between now and the count down date
+	var distance = countDownDate - now;
+
+	// Time calculations for days, hours, minutes and seconds
+	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+	// Display the result in the corresponding elements
+	document.getElementById("days").innerHTML = days + "d";
+	document.getElementById("hours").innerHTML = hours + "h";
+	document.getElementById("minutes").innerHTML = minutes + "m";
+	document.getElementById("seconds").innerHTML = seconds + "s";
+
+	// If the count down is finished, write some text
+	if (distance < 0) {
+		clearInterval(x);
+		document.getElementById("days").innerHTML = "0d";
+		document.getElementById("hours").innerHTML = "0h";
+		document.getElementById("minutes").innerHTML = "0m";
+		document.getElementById("seconds").innerHTML = "0s";
+	}
+}, 1000);
+    // Audio control
+    function isPlaying(audelem) {
+        return !audelem.paused;
+    }
+
+    $(function(){
+        var audio = new Audio("{{url('assets/hookup/images/marry.mp3')}}");
+
+        // Open the modal when the page loads
+        $('button[data-toggle="modal"]').click();
+
+        // Play the audio when the "Buka Undangan" button is clicked
+        $('body').on('click', '#playMusic', function(){
+            audio.play();
+        });
+
+        // Toggle play/pause when the play button is clicked
+        $('#play').click(function(){
+            if (isPlaying(audio)) {
+                audio.pause();
+            } else {
+                audio.play();
+            }
+        });
+    });
+</script>
+
+
+
+  </body>
+</html>
